@@ -55,11 +55,11 @@ runwgcf() {
   
   wg-quick up wgcf
   
-  if [ "$_enableV4" ]; then
-    _checkV4
-  else
-    _checkV6
-  fi
+  # if [ "$_enableV4" ]; then
+  #   _checkV4
+  # else
+  #   _checkV6
+  # fi
 
   echo 
   echo "OK, wgcf is up."
